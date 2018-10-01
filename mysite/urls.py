@@ -12,5 +12,5 @@ urlpatterns = [
     # /bookmark/ 요청을 처리할 뷰 클래스를 BookmarkLV로 지정하고, URL 패턴 이름 지정
     url(r'^bookmark/$', BookmarkLV.as_view(), name='index'),
     # /bookmark/숫자/ 요청을 처리할 뷰 클래스를 BookmarkDV로 지정하고, URL 패턴 이름 지정
-    url(r'^bookmark/(?P<pk>)\d+)/$', BookmarkDV.as_view(), name='detail'),
+    url(r'^bookmark/(?P<pk>\d+)/$', BookmarkDV.as_view(), name='detail'),
 ]

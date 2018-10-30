@@ -58,3 +58,4 @@ class PostTAV(TodayArchiveView) :
     date_field = 'modify_date'
     # URLconf에서 지정한 당일(today)에 해당하는 object_list를 구성하고
     # 이를 템플릿에 전달함
+

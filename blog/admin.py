@@ -10,4 +10,4 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ('title', 'content')  # 검색 박스 표시하되, 입력된 값을 여기서 검색하라고 지정
     prepopulated_fields = {'slug': ('title',)}  # 슬러그 필드가 제목 필드의 값으로 자동 작성되도록 지정
 
-admin.site.register(Post, PostAdmin)  # Post 및 PostAdmin 클래스를 관리자 사이트에 등록
+admin.site.register(Post, PostAdmin)  # Post 및 PostAdmin 클래스를 관지자 사이트에 등록

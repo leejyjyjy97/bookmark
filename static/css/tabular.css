@@ -9,15 +9,15 @@
     padding: 8px;
 }
 
-#tbl tr:nth-child(even){background-color: #f2f2f2;}
+#tbl tr:nth-child(even){background-color: #ffff99;}
 
-#tbl tr:hover {background-color: #ddd;}
+#tbl tr:hover {background-color: #ffcc99;}
 
 #tbl th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #ff99cc;
     color: white;
 }
 

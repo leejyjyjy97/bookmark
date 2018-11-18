@@ -1,6 +1,6 @@
 {% extends "base.html" %}                   <!--base.html을 상속받는다고 선언-->
 
-{% block title %}home.html{% endblock %}    <!--title 블록 재정의-->
+{% block title %}장고 웹 사이트{% endblock %}    <!--title 블록 재정의-->
 
 <!--정적 파일인 css 연결하기 위하여, staticfiles를 로드-->
 {% load staticfiles %}
@@ -13,7 +13,7 @@
 
     <div id="homeimg">      <!--homeimg 영역 정의-->
         <!--<a href="/"><img src="{% static 'img/django-actor-big.jpg' %}" style="height:256px;"/></a>-->
-        <a href="/"><img src="{% static 'img/django.jpg' %}" style="height:256px;"/></a>
+        <a href="/"><img src="{% static 'img/cat.jpg' %}" style="height:256px;"/></a>
         <h4 style="margin: 0;">장고 프레임워크로 개발한 웹 사이트입니다.</h4>
     </div>
 
@@ -49,6 +49,6 @@
 {% block footer %}                      <!--footer 블록 재정의-->
 <div id="footer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Copyleft.svg/220px-Copyleft.svg.png"
-         height="12" width="12" /> doro16
+         height="12" width="12" /> jiyeon
 </div>
 {% endblock footer %}
